@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "another-day-another-word",
+  "short_name": "another-day-another-word",
+  "version": "0.0.1",
+  "icons": {
+  },
+  "description": "Chrome plugin that helps you to learn new words, by replacing synonimes of a word you choose with the word itsself.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "app.js"
+      ]
+    }
+  ]
+}
